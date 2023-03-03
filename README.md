@@ -10,3 +10,17 @@ gtkmm3,libjsoncpp.so=25-64,libsigc++,fmt,jack,libjack.so=0-64,wayland,libdate-tz
 gtk-layer-shell,libupower-glib.so=3-64,upower,libevdev,libinput,libpluse,libnl,libappindicator-gtk3,libdusmenu-gtk3,
 libmpdclient,libsndio.so=7-64,libxkbcommon,wireplumber,playctl
 
+nwg-look-bin 
+gtk3,glib2,cairo,xcur2png
+
+wlr-randr
+wayland
+
+swaybg
+wayland,cairo,gdk-pixbuf2
+
+mako
+gdk-pixbuf2,pango,systemd-libs,wayland
+
+wofi 
+wayland,gtk3  note you still need rofi for wofi to work
